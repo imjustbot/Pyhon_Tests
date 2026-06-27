@@ -20,11 +20,10 @@ else:
 
     print("Ok")
 
-età == input("Vabbè cambiamo discorso, quanti anni hai?")
+età = input("Vabbè cambiamo discorso, quanti anni hai?")
 
-numero = int
 
-if età != numero:
+if not età.isdigit:
 
     print("Inserisci un numero valido!")
 
@@ -34,7 +33,7 @@ elif età >= 18:
 
 elif età < 18:
 
-    print("Sei maggiorenne")
+    print("Sei minorenne")
 
 
 
